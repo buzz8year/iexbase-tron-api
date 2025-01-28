@@ -54,7 +54,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/cocostru/data-types"
+            "url": "https://github.com/buzz8year/data-types"
         }
     ]
 }
