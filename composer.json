@@ -19,8 +19,8 @@
     ],
 
     "require": {
-        "php": ">=7.2",
-        "comely-io/data-types": "^1.0",
+        "php": ">=8.0",
+        "comely-io/data-types": "dev-master",
         "guzzlehttp/guzzle": ">=6.3",
         "iexbase/web3.php": "^2.0.1",
         "kornrunner/secp256k1": "^0.2",
@@ -49,5 +49,12 @@
     },
 
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cocostru/data-types"
+        }
+    ]
 }
